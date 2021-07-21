@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_artificial_intelligence"
+            android:title="@string/menu_artificial_intelligence" />
+        <item
+            android:id="@+id/nav_big_data"
+            android:title="@string/menu_big_data" />
+        <item
+            android:id="@+id/nav_cloud_computing"
+            android:title="@string/menu_cloud_computing" />
+
+        <item
+            android:id="@+id/nav_communications"
+            android:title="@string/menu_communications" />
+        <item
+            android:id="@+id/nav_computer_science"
+            android:title="@string/menu_computer_science" />
+
+        <item
+            android:id="@+id/nav_computer_vision"
+            android:title="@string/menu_computer_vision" />
+        <item
+            android:id="@+id/nav_data_mining"
+            android:title="@string/menu_data_mining" />
+        <item
+            android:id="@+id/nav_image_processing"
+            android:title="@string/menu_image_processing" />
+        <item
+            android:id="@+id/nav_information_technology"
+            android:title="@string/menu_information_technology" />
+
+        <item
+            android:id="@+id/nav_machine_learning"
+            android:title="@string/menu_machine_learning" />
+        <item
+            android:id="@+id/nav_multimedia"
+            android:title="@string/menu_multimedia" />
+
+        <item
+            android:id="@+id/nav_networking"
+            android:title="@string/menu_networking" />
+        <item
+            android:id="@+id/nav_NLP"
+            android:title="@string/menu_nlp" />
+
+
+        <item
+            android:id="@+id/nav_security"
+            android:title="@string/menu_security" />
+        <item
+            android:id="@+id/nav_signal_processing"
+            android:title="@string/menu_signal_processing" />
+
+        <item
+            android:id="@+id/nav_software_engineering"
+            android:title="@string/menu_software_engineering" />
+
+    </group>
+</menu>
+

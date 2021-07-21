@@ -1,0 +1,75 @@
+<resources>
+
+    <!--    登入 title-->
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_id">Enter ID</string>
+    <string name="prompt_name">Enter Organization Name</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="prompt_repassword">Re-enter Password</string>
+    <string name="prompt_mail">Enter Email</string>
+    <string name="prompt_officialmail">Enter Official Email</string>
+
+
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_next">Next</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_authror__index_">MainActivity</string>
+
+    <!--    分頁 title-->
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_forum">Forum</string>
+    <string name="title_account">My Account</string>
+
+    <!--    常用 title-->
+    <string name="search_events">Search Events</string>
+    <string name="journal">Journal</string>
+    <string name="conference">Conference</string>
+
+
+    <string name="menu_artificial_intelligence">Artificial Intelligence</string>
+    <string name="menu_big_data">Big Data</string>
+    <string name="menu_cloud_computing">Cloud Computing</string>
+    <string name="menu_communications">Communications</string>
+    <string name="menu_computer_science">Computer Science</string>
+    <string name="menu_computer_vision">Computer Vision</string>
+    <string name="menu_data_mining">Data Mining</string>
+    <string name="menu_image_processing">Image Processing</string>
+    <string name="menu_information_technology">Information Technology</string>
+    <string name="menu_machine_learning">Machine Learning</string>
+    <string name="menu_multimedia">Multimedia</string>
+    <string name="menu_networking">Networking</string>
+    <string name="menu_nlp">NLP</string>
+    <string name="menu_security">Security</string>
+    <string name="menu_signal_processing">Signal Processing</string>
+    <string name="menu_software_engineering">Software Engineering</string>
+
+    <string name="online_streaming"> Online streaming</string>
+    <string name="safe">Safe</string>
+    <string name="warning">COVID-19</string>
+
+    <!--    <string name = "artificial_intelligence">Artificial_Intelligence</string>-->
+    <!--    <string name = "big_data">Big_Data</string>-->
+    <!--    <string name = "cloud_computing">Cloud Computing</string>-->
+    <!--    <string name = "communications">Communications</string>-->
+    <!--    <string name = "computer_science">Computer Science</string>-->
+    <!--    <string name = "computer_vision">Computer Vision</string>-->
+    <!--    <string name = "data_mining">Data_Mining</string>-->
+    <!--    <string name = "image_processing">Image Processing</string>-->
+    <!--    <string name = "information_technology">Information Technology</string>-->
+    <!--    <string name = "machine_learning">Machine Learning</string>-->
+    <!--    <string name = "multimedia">Multimedia</string>-->
+    <!--    <string name = "networking" >Networking</string>-->
+    <!--    <string name = "nlp" >NLP</string>-->
+    <!--    <string name = "security" >Security</string>-->
+    <!--    <string name = "signal_processing" >Signal Processing</string>-->
+    <!--    <string name = "software_engineering">Software Engineering</string>-->
+
+
+</resources>

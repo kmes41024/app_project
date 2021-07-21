@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".Author_AccountActivity">
+    <!-- 用于对比使用的不设置任何属性的Switch -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="My Account"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/item_back"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="9dp"
+            android:orientation="horizontal"
+            android:background="@drawable/gray_btn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:background="#00000000"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_paper_plane" />
+
+            <TextView
+                android:id="@+id/messageText"
+                android:layout_width="204dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=" Message"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:background="#00000000"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                app:srcCompat="@drawable/ic_next" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btnPost"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/gray_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="historyBtnClick"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                app:srcCompat="@drawable/ic_edit" />
+
+            <TextView
+                android:id="@+id/postText"
+                android:layout_width="204dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background = "#00000000"
+                android:gravity="center_vertical"
+                android:text=" My Post"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:background = "#00000000"
+                app:srcCompat="@drawable/ic_next" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btnNight"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/gray_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                app:srcCompat="@drawable/ic_night" />
+
+            <TextView
+                android:id="@+id/nightText"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="@color/ligt_gray"
+                android:gravity="center_vertical"
+                android:text=" Night Shift"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:background="#00000000"
+                android:text=""
+                android:thumbTint="#F6F5F5"
+                android:trackTint="#0930A3" />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/btnLanguage"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/gray_btn"
+            android:onClick="languageBtnClick"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                app:srcCompat="@drawable/ic_language" />
+
+            <TextView
+                android:id="@+id/languageText"
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ligt_gray"
+                android:gravity="center_vertical"
+                android:text=" Language"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ligt_gray"
+                android:gravity="center_vertical"
+                android:text="English"
+                android:textColor="@color/blue"
+
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:background="#00000000"
+                app:srcCompat="@drawable/ic_next" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="0dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="-103dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="282dp"
+            android:layout_height="171dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:onClick="changeImg"
+            android:src="@drawable/ic_account" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="670dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:onClick="gotoIndex"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/ic_list" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            app:srcCompat="@drawable/ic_account" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

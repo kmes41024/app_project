@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".DetailActivity">
+    <!-- 用于对比使用的不设置任何属性的Switch -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_back"
+            android:orientation="vertical"
+            android:paddingHorizontal="8dp"
+            android:paddingTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toolbar"
+            app:layout_constraintHorizontal_bias="0.892"
+            app:layout_constraintStart_toEndOf="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="105dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        app:srcCompat="@drawable/img6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="88dp"
+                    android:layout_height="105dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/item_starttime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Feb 8, 2021"
+                            android:textAlignment="center"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="|"
+                            android:textAlignment="center"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/item_endtime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Feb 10, 2021"
+                            android:textAlignment="center"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/item_method"
+                            android:layout_width="117dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="7dp"
+                            android:drawablePadding="3dp"
+                            android:text="Zurich, Switzerland"
+                            android:textSize="12sp"
+                            app:drawableLeftCompat="@drawable/ic_pin"
+                            tools:ignore="SmallSp" />
+
+                        <TextView
+                            android:id="@+id/item_state"
+                            android:layout_width="65dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:paddingVertical="4dp"
+                            android:background="@drawable/state_warning"
+                            android:text="@string/warning"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            tools:ignore="RtlCompat,SmallSp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginVertical="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/subtitel2"
+                            android:layout_width="115dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:text="Submission Deadline:"
+                            android:textSize="11.5sp" />
+
+                        <TextView
+                            android:id="@+id/item_subdeadline2"
+                            android:layout_width="65dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:text="Dec 26, 2020"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginVertical="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/subtitel4"
+                            android:layout_width="115dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:text="Notification Deadline:"
+                            android:textSize="11.5sp" />
+
+                        <TextView
+                            android:id="@+id/item_subdeadline3"
+                            android:layout_width="65dp"
+                            android:layout_height="33dp"
+                            android:layout_weight="1"
+                            android:text=" Jan 10, 2021"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/subtitel"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:text="Final Version Deadline:"
+                            android:textSize="10.5sp" />
+
+                        <TextView
+                            android:id="@+id/item_subdeadline"
+                            android:layout_width="65dp"
+                            android:layout_height="30dp"
+                            android:text=" Jan 18, 2021"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginVertical="8dp"
+                android:background="#686868" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
+
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/c1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/category_btn"
+                        android:paddingHorizontal="7dp"
+                        android:paddingVertical="1dp"
+                        android:text="@string/menu_computer_science"
+                        android:textAlignment="center"
+                        android:textColor="@color/heavy_gray"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/c2"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/category_btn"
+                        android:maxWidth="170sp"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="1dp"
+                        android:text="@string/menu_information_technology"
+                        android:textAlignment="center"
+                        android:textColor="@color/heavy_gray"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/c3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/category_btn"
+                        android:maxWidth="130sp"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="1dp"
+                        android:text="@string/menu_artificial_intelligence"
+                        android:textAlignment="center"
+                        android:textColor="@color/heavy_gray"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/pdf"
+                        android:layout_width="25sp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:onClick="download"
+                        android:background="#ffffff"
+                        android:src="@drawable/ic_pdf" />
+
+                    <ImageButton
+                        android:id="@+id/btn_link"
+                        android:layout_width="15dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:onClick="official_link"
+                        android:background="#ffffff"
+                        android:src="@drawable/ic_link" />
+
+                    <ImageButton
+                        android:id="@+id/btn_share"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/ic_share" />
+
+                    <ImageButton
+                        android:id="@+id/btn_favorite"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="#ffffff"
+                        android:src="@drawable/ic_favorite_chosen" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/image_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="233dp"
+                    android:layout_marginVertical="15dp"
+                    android:src="@drawable/img_z" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/content_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="1dp"
+                android:text="Scope &amp; Topics"
+                android:textAlignment="center"
+                android:textColor="@color/heavy_gray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/content_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="1dp"
+
+                android:text="2nd International Conference on Cloud and Internet of Things (ICCIoT 2021) will provide an excellent international forum for sharing knowledge and results in theory, methodology and applications of Cloud and IoT. The aim of the conference is to provide a platform to the researchers and practitioners from both academia as well as industry to meet and share cutting-edge development in the field."
+
+                android:textColor="@color/heavy_gray"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/content_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="1dp"
+                android:paddingBottom="15dp"
+                android:text="Topics of Interest"
+                android:textAlignment="center"
+                android:textColor="@color/heavy_gray"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/content_title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="1dp"
+                android:paddingBottom="15dp"
+                android:text="Applications based on IoT and Cloud\n
+Case Studies and Theories in Cloud Computing\n
+Cloud as a Service\n
+Cloud Infrastructure\n
+Cloud Management\n
+Cloud Security\n
+Cloud Applications\n
+Cloud Computing Technologies\n
+Big data in Cloud\n
+Cloud Computing Architecture\n
+Cloud Computing based IoT technologies\n
+Cloud storage for IoT\n
+Connectivity and Networking\n
+Data storage and management in Cloud computing\n
+Energy management and programming environments\n
+Experimental Results and Deployment Scenarios\n
+IoT Applications and Services\n
+IoT-enabled Innovation and Entrepreneurship\n
+Security and Privacy for IoT\n
+Security and privacy in Clouds and IoT\n
+Security techniques for the Cloud\n
+The Open Cloud: Cloud Computing and open source\n"
+                android:textColor="@color/heavy_gray"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="670dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:onClick="gotoIndex"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/ic_home" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            app:srcCompat="@drawable/ic_favorite_menu" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:onClick="gotoForum"
+            app:srcCompat="@drawable/ic_forum" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:onClick="gotoAccount"
+            app:srcCompat="@drawable/ic_account" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:ems="5"
+        android:gravity="start|top"
+        android:text="CSITA 2021 : 7th International Conference on Computer Science, Information Technology and Applications"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

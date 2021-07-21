@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_communications">
+
+    <fragment
+        android:id="@+id/nav_artificial_intelligence"
+        android:name="com.example.myapplication.ui.artificial_intelligence.Artificial_IntelligenceFragment"
+        android:label="Artificial Intelligence"
+        tools:layout="@layout/fragment_artificial_intelligence" />
+
+    <fragment
+        android:id="@+id/nav_big_data"
+        android:name="com.example.myapplication.ui.big_data.Big_DataFragment"
+        android:label="Big Data"
+        tools:layout="@layout/fragment_big_data" />
+
+    <fragment
+        android:id="@+id/nav_cloud_computing"
+        android:name="com.example.myapplication.ui.cloud_computing.Cloud_ComputingFragment"
+        android:label="Cloud Computing"
+        tools:layout="@layout/fragment_cloud_computing" />
+
+    <fragment
+        android:id="@+id/nav_communications"
+        android:name="com.example.myapplication.ui.communications.CommunicationsFragment"
+        android:label="Communications"
+        tools:layout="@layout/fragment_communications" />
+
+    <fragment
+        android:id="@+id/nav_computer_science"
+        android:name="com.example.myapplication.ui.computer_science.Computer_ScienceFragment"
+        android:label="Computer Science"
+        tools:layout="@layout/fragment_computer_science" />
+
+    <fragment
+        android:id="@+id/nav_computer_vision"
+        android:name="com.example.myapplication.ui.computer_vision.Computer_VisionFragment"
+        android:label="Computer Vision"
+        tools:layout="@layout/fragment_computer_vision" />
+
+    <fragment
+        android:id="@+id/nav_data_mining"
+        android:name="com.example.myapplication.ui.data_mining.Data_MiningFragment"
+        android:label="Data Mining"
+        tools:layout="@layout/fragment_data_mining" />
+
+    <fragment
+        android:id="@+id/nav_image_processing"
+        android:name="com.example.myapplication.ui.image_processing.Image_ProcessingFragment"
+        android:label="Image Processing"
+        tools:layout="@layout/fragment_image_processing" />
+
+    <fragment
+        android:id="@+id/nav_information_technology"
+        android:name="com.example.myapplication.ui.information_technology.Information_TechnologyFragment"
+        android:label="Information Technology"
+        tools:layout="@layout/fragment_information_technology" />
+
+    <fragment
+        android:id="@+id/nav_machine_learning"
+        android:name="com.example.myapplication.ui.machine_learning.Machine_LearningFragment"
+        android:label="Machine Learning"
+        tools:layout="@layout/fragment_machine_learning" />
+
+    <fragment
+        android:id="@+id/nav_multimedia"
+        android:name="com.example.myapplication.ui.multimedia.MultimediaFragment"
+        android:label="Multimedia"
+        tools:layout="@layout/fragment_multimedia" />
+
+    <fragment
+        android:id="@+id/nav_networking"
+        android:name="com.example.myapplication.ui.networking.NetworkingFragment"
+        android:label="Networking"
+        tools:layout="@layout/fragment_networking" />
+
+    <fragment
+        android:id="@+id/nav_NLP"
+        android:name="com.example.myapplication.ui.NLP.NLPFragment"
+        android:label="NLP"
+        tools:layout="@layout/fragment_nlp" />
+
+    <fragment
+        android:id="@+id/nav_security"
+        android:name="com.example.myapplication.ui.security.SecurityFragment"
+        android:label="Security"
+        tools:layout="@layout/fragment_security" />
+
+    <fragment
+        android:id="@+id/nav_signal_processing"
+        android:name="com.example.myapplication.ui.signal_processing.Signal_ProcessingFragment"
+        android:label="Signal Processing"
+        tools:layout="@layout/fragment_signal_processing" />
+
+    <fragment
+        android:id="@+id/nav_software_engineering"
+        android:name="com.example.myapplication.ui.software_engineering.Software_EngineeringFragment"
+        android:label="Software Engineering"
+        tools:layout="@layout/fragment_soft_engineering" />
+
+
+</navigation>

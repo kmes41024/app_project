@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="title">
+        <item>NeCoM 2021 : 13th International Conference on Networks &amp; Communications</item>
+        <item>SP 2021 : 7th International Conference on Signal Processing</item>
+        <item>ACM—ICHMI—Ei Compendex, Scopus 2021 : ACM—2021 International Conference on Human–Machine Interaction (ICHMI 2021)—EI Compendex, Scopus</item>
+        <item>SIPM 2021 : 9th International Conference on Signal Image Processing and Multimedia</item>
+        <item>NBIoT 2021 : 2nd International Conference on Networks, Blockchain and Internet of Things</item>
+        <item>CSITA 2021 : 7th International Conference on Computer Science, Information Technology and Applications</item>
+        <item>NCWMC 2021 : 6th International Conference on Networks, Communications, Wireless and Mobile Computing </item>
+        <item>ICCIoT 2021 : 2nd International Conference on Cloud and Internet of Things</item>
+        <item>CBW 2021 : 2nd International Conference on Cloud, Big Data and Web Service</item>
+        <item>IJMNCT 2020 : International Journal of Mobile Network Communications&amp;Telematics</item>
+    </string-array>
+
+    <string-array name="startdate">
+        <item>Feb 20, 2021</item>
+        <item>Feb 20, 2021 </item>
+        <item>May 7, 2021</item>
+        <item>Jul 10, 2021</item>
+        <item>May 22, 2021</item>
+        <item>May 22, 2021</item>
+        <item>May 29, 2021</item>
+        <item>Jan 23, 2021</item>
+        <item>Jul 24, 2021</item>
+        <item>NAN</item>
+    </string-array>
+
+    <string-array name="enddate">
+        <item>Feb 21, 2021</item>
+        <item>Feb 21, 2021</item>
+        <item>May 9, 2021</item>
+        <item>Jul 11, 2021</item>
+        <item>May 23, 2021</item>
+        <item>May 23, 2021</item>
+        <item>May 30, 2021</item>
+        <item>Jan 24, 2021</item>
+        <item>Jul 25, 2021</item>
+        <item>NAN</item>
+    </string-array>
+
+    <string-array name="place">
+        <item>  Dubai, UAE</item>
+        <item>  Dubai, UAE</item>
+        <item>  Guangzhou, China</item>
+        <item>  Toronto, Canada</item>
+        <item>  Zurich, Switzerland</item>
+        <item>  Zurich, Switzerland</item>
+        <item>  Vancouver, Canada</item>
+        <item>  Zurich, Switzerland</item>
+        <item>  London, UK</item>
+        <item>  NAN</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+        <item>COVID-19 Warning</item>
+    </string-array>
+
+    <string-array name="subdeadline">
+        <item>Dec 20, 2020</item>
+        <item>Dec 20, 2020 </item>
+        <item>Dec 25, 2020</item>
+        <item>Dec 26, 2020</item>
+        <item>Dec 26, 2020</item>
+        <item>Dec 26, 2020</item>
+        <item>Dec 26, 2020 </item>
+        <item>Dec 26, 2020</item>
+        <item>Dec 26, 2020</item>
+        <item>Dec 26, 2020</item>
+    </string-array>
+
+    <string-array name="notificationdue">
+        <item>Jan 10, 2021</item>
+        <item>Jan 10, 2021</item>
+        <item>Jan 10, 2021</item>
+        <item>Nan</item>
+        <item>Jan 10, 2021</item>
+        <item>Jan 10, 2021</item>
+        <item>Jan 10, 2021 </item>
+        <item>Jan 15, 2021</item>
+        <item>Jan 10, 2021</item>
+        <item>Jan 26, 2021</item>
+    </string-array>
+
+    <string-array name="finalVersiondue">
+        <item>Jan 18, 2021</item>
+        <item>Jan 18, 2021</item>
+        <item>Nan</item>
+        <item>Jan 18, 2021</item>
+        <item>Jan 18, 2021</item>
+        <item>Jan 18, 2021</item>
+        <item>Feb 28, 2021</item>
+        <item>Jan 20, 2021</item>
+        <item>Jan 18, 2021</item>
+        <item>Feb 3, 2021</item>
+    </string-array>
+
+    <string-array name="category1">
+        <item>Communications</item>
+        <item>Image Processing</item>
+        <item>Artificial Intelligence</item>
+        <item>Image Processing</item>
+        <item>Networking</item>
+        <item>Computer Science</item>
+        <item>Networking </item>
+        <item>Computer Science</item>
+        <item>Cloud Computing</item>
+        <item>Communications</item>
+    </string-array>
+
+    <string-array name="category2">
+        <item>Networking</item>
+        <item>Multimedia </item>
+        <item>Computer Science</item>
+        <item>Multimedia</item>
+        <item>Security</item>
+        <item>Information Technology</item>
+        <item>Communications </item>
+        <item>Information Technology</item>
+        <item>Machine Learning</item>
+        <item>Computer Science</item>
+    </string-array>
+
+    <string-array name="category3">
+        <item>Security</item>
+        <item>Signal Processing</item>
+        <item>NaN</item>
+        <item>Signal Processing</item>
+        <item>Nan</item>
+        <item>Artificial Intelligence</item>
+        <item>NaN</item>
+        <item>Soft Engineering</item>
+        <item>Big Data</item>
+        <item>Networking</item>
+    </string-array>
+
+    <string-array name="content">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="link">
+        <item>https://necom2021.org/index</item>
+        <item>https://necom2021.org/sp/index</item>
+        <item>http://www.ichmi.org/</item>
+        <item>https://acsit2021.org/sipm/index</item>
+        <item>https://csita2021.org/nbiot/index</item>
+        <item>https://csita2021.org/</item>
+        <item>https://ccsit2021.org/ncwmc/index.html</item>
+        <item>https://ccseit2021.org/icciot/index.html</item>
+        <item>https://icaita2021.org/cbw/index</item>
+        <item>http://airccse.org/journal/ijmnct/ijmnct.html</item>
+    </string-array>
+
+    <string-array name="icon">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="place_image">
+        <item>@drawable/img_d</item>
+        <item>@drawable/img_d</item>
+        <item>@drawable/img_china</item>
+        <item>@drawable/img_t</item>
+        <item>@drawable/img_z</item>
+        <item>@drawable/img_z</item>
+        <item>@drawable/img_v</item>
+        <item>@drawable/img_z</item>
+        <item>@drawable/img_uk</item>
+        <item>@drawable/img_nan</item>
+    </string-array>
+
+    <string-array name="download_url">
+        <item>https://drive.google.com/file/d/1Q3iO60b9603uLaMmzBOii8vIcQc49eUS/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1-Tv_0y-1tEOxYdWeefR2wbFcKSZzoDeQ/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1nMWMZGC5D-WB30E6c4AMizJFC4k-Bwno/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1QCTTPjooiEpGMAko-UU9X31-9Qt0KX55/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1qQL6TkOFUtE7DPKvzIOc3I-m306SqUJf/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1HcFngWywGDQ46R3AQU2MWdLUJHNb373_/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1JWvy7ax5_tBamB7bYFuzSTXtFFIJQtjU/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1Ow1WX6fuC5QkmPmigmha7-9YzAiab5TD/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1R9aVwyytnXrmZT_Yd-5zskhuK3nk4OYL/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1cSGe-RNa7SvGEkKqKB8RjAr4Gx6e-boA/view?usp=sharing</item>
+    </string-array>
+
+
+
+</resources>

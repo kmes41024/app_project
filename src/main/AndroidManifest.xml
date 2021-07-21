@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".myPost"></activity>
+        <activity android:name=".MakePost" />
+        <activity android:name=".DownloadActivity" />
+        <activity android:name=".FavoriteNextActivity" />
+        <activity android:name=".showPostActivity" />
+        <activity android:name=".OrganizerIndexActivity" />
+        <activity android:name=".Organizer_AccountActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity
+            android:name=".ForumActivity"
+            android:label="@string/title_home" />
+        <activity
+            android:name=".IndexActivity"
+            android:label="@string/title_home" />
+        <activity
+            android:name=".FavoriteActivity"
+            android:label="@string/title_home" />
+        <activity
+            android:name=".Author_AccountActivity"
+            android:label="@string/title_home" />
+        <activity
+            android:name=".ui.login.Login_OrganizerActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".ui.login.Login_AuthorActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".ui.login.Signup_AuthorActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".ui.login.Signup_OrganizerActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".ui.login.Signup_Author_NextActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
